@@ -3,14 +3,6 @@
     margin: 0;
 }
 
-header {
-    display: flex;
-    padding: 22.394px 99.528px;
-    align-items: center;
-    height: 54.9px;
-    width: 100%;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
