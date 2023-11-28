@@ -7,6 +7,10 @@ header {
     padding: 5 22px;
 }
 
+#Vector {
+    margin-right: 10px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -31,7 +35,8 @@ nav {
     align-items: center;
 }
 
-.link {
+.linksmenu {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
