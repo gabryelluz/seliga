@@ -1,19 +1,69 @@
-* {
-    padding: 0;
+/* Adicione estilos conforme necessário */
+
+body {
     margin: 0;
+    font-family: 'Arial', sans-serif;
 }
 
-nav {
+/* Estilos para o header */
+
+/* ... (use os estilos do exemplo anterior) */
+
+/* Estilos para o main */
+
+.main {
+    padding: 20px;
+}
+
+.featured {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.destination {
+    margin-bottom: 20px;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
+
+.about {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Estilos para o footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
     display: flex;
     justify-content: space-between;
 }
 
-a {
-    display: flex;
-    align-items: center;
+.contact, .social {
+    flex: 1;
 }
 
-.link {
-    display: flex;
-    align-items: center;
+.contact h3, .social h3 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.social a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
 }
