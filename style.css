@@ -11,6 +11,10 @@ header {
     margin-right: 10px;
 }
 
+#bagagem {
+    gap: 0;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
