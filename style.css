@@ -3,12 +3,30 @@
     margin: 0;
 }
 
+header {
+    padding: 5 22px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
-}a
+}
 
-a {
+.link__img {
+    gap: 10px;
+}
+
+.link__left {
+    display: flex;
+    align-items: center;
+}
+
+.link__right {
+    display: flex;
+    align-items: center;
+}
+
+.cpp {
     display: flex;
     align-items: center;
 }
