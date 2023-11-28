@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 22.394px 99.528px;
+    align-items: center;
+    height: 77.3px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
