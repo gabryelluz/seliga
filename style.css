@@ -22,7 +22,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 35px;
+    gap: 50px;
 }
 
 .link__right {
@@ -33,6 +33,7 @@ header {
 .cpp {
     display: flex;
     align-items: center;
+    gap: 1.7em;
 }
 
 .linksmenu {
