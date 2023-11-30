@@ -3,7 +3,10 @@
     margin: 0;
 }
 
+
 header {
+    display: flex;
+    justify-content: space-between;
     padding: 5px 22px;
 }
 
@@ -13,11 +16,6 @@ header {
 
 #bagagem {
     gap: 0;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
 }
 
 .link__img {
