@@ -10,10 +10,6 @@ header {
     padding: 5px 22px;
 }
 
-#Vector {
-    margin-right: 10px;
-}
-
 #bagagem {
     gap: 0;
 }
@@ -25,6 +21,8 @@ header {
 .link__left {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 35px;
 }
 
 .link__right {
