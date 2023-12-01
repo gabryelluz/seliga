@@ -51,14 +51,14 @@ header {
 
 #sua__viagem {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .linksmenu {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .text__letter {
@@ -67,8 +67,8 @@ header {
 
 #bagagem {
     gap: 0;
-    font-size: 16px;
+    font-size: 14px;
 }
 #Vector {
-    font-size: 16px;
+    font-size: 14px;
 }
