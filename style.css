@@ -49,16 +49,17 @@ header {
     gap: 1.7em;
 }
 
-#sua__viagem {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 22px;
-}
-
 .linksmenu {
     display: flex;
     align-items: center;
     gap: 16px;
     font-size: 11px;
+}
+
+#sua__viagem {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    gap: 13px;
 }
 
 .text__letter {
