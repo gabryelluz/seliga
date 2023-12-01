@@ -23,7 +23,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 8px 28px;
+    padding: 5px 40px;
 }
 
 .link__img {
@@ -40,7 +40,7 @@ header {
 .link__right {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .cpp {
