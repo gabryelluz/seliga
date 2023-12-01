@@ -15,10 +15,6 @@ header {
     padding: 5px 22px;
 }
 
-#bagagem {
-    gap: 0;
-}
-
 .link__img {
     gap: 10px;
 }
@@ -52,4 +48,14 @@ header {
     gap: 10px;
     font-size: 13px;
     text-transform: uppercase;
+}
+
+#bagagem {
+    gap: 0;
+    font-size: 16px;
+    text-transform: none;
+}
+#Vector {
+    font-size: 16px;
+    text-transform: none;
 }
