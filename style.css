@@ -57,7 +57,7 @@ header {
 .linksmenu {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
     font-size: 11px;
 }
 
@@ -71,4 +71,5 @@ header {
 }
 #Vector {
     font-size: 13px;
+    gap: 10px;
 }
