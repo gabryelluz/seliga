@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 
 
@@ -40,8 +42,14 @@ header {
     gap: 1.7em;
 }
 
+#sua__viagem {
+    font-size: 20px;
+}
+
 .linksmenu {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
 }
