@@ -58,15 +58,16 @@ header {
     align-items: center;
     gap: 10px;
     font-size: 13px;
+}
+
+.text__letter {
     text-transform: uppercase;
 }
 
 #bagagem {
     gap: 0;
     font-size: 16px;
-    text-transform: none;
 }
 #Vector {
     font-size: 16px;
-    text-transform: none;
 }
