@@ -129,8 +129,11 @@ header {
     display: flex;
     align-items: center;
     background: var(--cor-verde-claro);
+    padding: 0 2%;
 }
 
 .text__secs {
     text-align: center;
+    padding: 3%;
+    font-size: 26px;
 }
