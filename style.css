@@ -80,6 +80,6 @@ header {
     background: var(--gradiente-fundo);
     display: flex;
     align-items: center;
-    width: 80%;
-    margin: auto;
+    width: auto;
+    margin: 0 10%;
 }
