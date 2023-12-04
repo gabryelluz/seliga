@@ -160,3 +160,16 @@ header {
 .espec_img-text__5sec {
     margin: auto;
 }
+
+.text__footer {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    background: var(--cor-verde-escuro);
+    color: var(--cor-fundo);
+    padding: .5% 0;
+}
+
+#white-space2 {
+    height: 31px;
+}
