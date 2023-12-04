@@ -129,7 +129,7 @@ header {
     display: flex;
     align-items: center;
     background: var(--cor-verde-claro);
-    padding: 0 2%;
+    padding: 2%;
 }
 
 .title__secs-2 {
