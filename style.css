@@ -70,7 +70,16 @@ header {
     gap: 7px;
     font-size: 13px;
 }
+
 #Vector {
     font-size: 13px;
     gap: 10px;
+}
+
+.desenvolvimento__1sec {
+    background-color: var(--gradiente-fundo);
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
 }
