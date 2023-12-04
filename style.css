@@ -173,3 +173,141 @@ header {
 #white-space2 {
     height: 31px;
 }
+
+
+
+
+
+
+
+
+
+/* Pequenas telas (até 600px) */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 5px 10px;
+    }
+
+    .link__left {
+        gap: 20px;
+    }
+
+    .cpp {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #sua__viagem {
+        font-size: 18px;
+    }
+
+    .text__1sec__cont {
+        font-size: 18px;
+    }
+
+    #img__1sec {
+        width: 100%;
+    }
+
+    .img__2sec {
+        width: 100%;
+    }
+
+    .img__secs {
+        width: 100%;
+    }
+
+    .img__5sec {
+        width: 100%;
+    }
+}
+
+/* Médias telas (601px a 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    header {
+        padding: 5px 20px;
+    }
+
+    .cpp {
+        gap: 2.5em;
+    }
+
+    #sua__viagem {
+        font-size: 20px;
+    }
+
+    .text__1sec__cont {
+        font-size: 22px;
+    }
+
+    #img__1sec {
+        width: 80%;
+    }
+
+    .img__2sec {
+        width: 48%;
+    }
+
+    .img__secs {
+        width: 48%;
+    }
+
+    .title__secs-2 {
+        font-size: 28px;
+    }
+
+    .text__secs {
+        font-size: 20px;
+    }
+
+    #img-text__5sec {
+        padding: 2% 4%;
+    }
+}
+
+/* Grandes telas (mais de 1024px) */
+@media only screen and (min-width: 1025px) {
+    header {
+        padding: 5px 40px;
+    }
+
+    .link__left {
+        gap: 50px;
+    }
+
+    .cpp {
+        gap: 1.7em;
+    }
+
+    #sua__viagem {
+        font-size: 22px;
+    }
+
+    .text__1sec__cont {
+        font-size: 26px;
+    }
+
+    #img__1sec {
+        width: 300px;
+    }
+
+    .img__2sec {
+        width: 240px;
+    }
+
+    .img__secs {
+        width: 48%;
+    }
+
+    .title__secs-2 {
+        font-size: 30px;
+    }
+
+    .text__secs {
+        font-size: 26px;
+    }
+
+    #img-text__5sec {
+        padding: 1% 6%;
+    }
+}
