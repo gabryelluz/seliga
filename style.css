@@ -146,6 +146,9 @@ header {
     font-size: 26px;
 }
 
-.desenvolvimento__5sec {
+.img-text__5sec {
     background: var(--cor-verde-claro);
+    display: flex;
+    padding: 3% 6%;
+    text-align: center;
 }
