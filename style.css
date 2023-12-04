@@ -81,16 +81,16 @@ header {
     display: flex;
     align-items: center;
     width: auto;
-    padding: 0 4%;
+    padding: 0 5%;
 }
 
 .text__1sec__cont {
     color: var(--cor-fundo);
-    font-size: 19px;
+    font-size: 27px;
     text-align: center;
-    margin: 0.7em;
+    margin: 0.8em;
 }
 
 #img__1sec {
-    width: 200px;
+    width: 300px;
 }
