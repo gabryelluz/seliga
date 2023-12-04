@@ -134,10 +134,11 @@ header {
 
 .title__secs {
     font-size: 30px;
+    padding:  20px 10px 10px;
 }
 
 .text__secs {
     text-align: center;
-    padding: 3%;
+    padding: 0% 3% 3%;
     font-size: 26px;
 }
