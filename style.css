@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@400;500;700&display=swap');
 
 :root {
   --cor-texto: #000000;
@@ -19,46 +19,47 @@
     color: var(--cor-texto);
 }
 
+
 header {
     display: flex;
     justify-content: space-between;
-    padding: 5px 6.88vw;
+    padding: 5px 40px;
 }
 
 .link__img {
-    gap: 1.72vw;
+    gap: 10px;
 }
 
 .link__left {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 8.62vw;
+    gap: 50px;
 }
 
 .link__right {
     display: flex;
     align-items: center;
-    gap: 0.89vw;
+    gap: 30px;
 }
 
 .cpp {
     display: flex;
     align-items: center;
-    gap: 0.29em;
+    gap: 1.7em;
 }
 
 .linksmenu {
     display: flex;
     align-items: center;
-    gap: 2.75vw;
-    font-size: 1.89vw;
+    gap: 16px;
+    font-size: 11px;
 }
 
 #sua__viagem {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3.79vw;
-    gap: 1.89vw;
+    font-size: 22px;
+    gap: 11px;
 }
 
 .text__letter {
@@ -66,13 +67,13 @@ header {
 }
 
 #bagagem {
-    gap: 1.2vw;
-    font-size: 2.23vw;
+    gap: 7px;
+    font-size: 13px;
 }
 
 #Vector {
-    font-size: 2.23vw;
-    gap: 1.72vw;
+    font-size: 13px;
+    gap: 10px;
 }
 
 #desenvolvimento__1sec {
@@ -80,18 +81,18 @@ header {
     display: flex;
     align-items: center;
     width: auto;
-    padding: 0 2.91vw;
+    padding: 0 5%;
 }
 
 .text__1sec__cont {
     color: var(--cor-fundo);
-    font-size: 4.47vw;
+    font-size: 26px;
     text-align: center;
     margin: 0.8em;
 }
 
 #img__1sec {
-    width: 51.65vw;
+    width: 300px;
 }
 
 #img-text__2sec {
@@ -100,15 +101,15 @@ header {
 
 .title__secs {
     color: var(--cor-marrom-escuro);
-    font-size: 3.62vw;
-    padding: 1.72vw 0;
+    font-size: 21px;
+    padding: 10px 0;
     text-align: center;
     font-weight: bold;
-}
+  }
 
 #img-text__2sec {
     display: flex;
-    padding: 3% 10.36vw;
+    padding: 3% 6%;
     text-align: center;
 }
 
@@ -117,23 +118,23 @@ header {
 }
 
 .img__2sec {
-    width: 41.38vw;
+    width: 240px;
 }
 
 .white-space {
-    height: 8.78vw;
+    height: 51px;
 }
 
 .img-text__secs {
     display: flex;
     align-items: center;
     background: var(--cor-verde-claro);
-    padding: 1.72vw;
+    padding: 2%;
 }
 
 .title__secs-2 {
-    font-size: 3.79vw;
-    padding: 3.44vw 1.72vw 1.72vw;
+    font-size: 30px;
+    padding:  20px 10px 10px;
     text-align: center;
     color: var(--cor-marrom-escuro);
     font-weight: bold;
@@ -141,19 +142,19 @@ header {
 
 .text__secs {
     text-align: center;
-    padding: 0% 2.06vw 1.72vw;
-    font-size: 4.47vw;
+    padding: 0% 3% 3%;
+    font-size: 26px;
 }
 
 #img-text__5sec {
     background: var(--cor-verde-claro);
     display: flex;
-    padding: 0.89vw 10.36vw;
+    padding: 1% 6%;
     text-align: center;
 }
 
 .img__5sec {
-    width: 41.38vw;
+    width: 240px;
 }
 
 .espec_img-text__5sec {
@@ -162,13 +163,13 @@ header {
 
 #text__footer {
     text-align: center;
-    font-size: 3.79vw;
+    font-size: 22px;
     font-weight: bold;
     background: var(--cor-verde-escuro);
     color: var(--cor-fundo);
-    padding: 0.18vw 0;
+    padding: .5% 0;
 }
 
 #white-space2 {
-    height: 5.33vw;
+    height: 31px;
 }
