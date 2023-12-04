@@ -76,7 +76,7 @@ header {
     gap: 10px;
 }
 
-.desenvolvimento__1sec {
+#desenvolvimento__1sec {
     background: var(--gradiente-fundo);
     display: flex;
     align-items: center;
