@@ -77,7 +77,7 @@ header {
 }
 
 .desenvolvimento__1sec {
-    background-color: var(--gradiente-fundo);
+    background: var(--gradiente-fundo);
     display: flex;
     align-items: center;
     width: 80%;
