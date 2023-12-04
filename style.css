@@ -161,7 +161,7 @@ header {
     margin: auto;
 }
 
-.text__footer {
+#text__footer {
     text-align: center;
     font-size: 22px;
     font-weight: bold;
