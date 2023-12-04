@@ -121,6 +121,15 @@ header {
     width: 240px;
 }
 
-span {
+white-space {
     height: 41px;
+}
+
+img-text__secs {
+    display: flex;
+    align-items: center;
+}
+
+.text__secs {
+    text-align: center;
 }
