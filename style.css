@@ -82,5 +82,9 @@ header {
     align-items: center;
     width: auto;
     padding: 0 7%;
+}
+
+.text__1sec__cont {
     color: var(--cor-fundo);
+    line-height: 3px;
 }
