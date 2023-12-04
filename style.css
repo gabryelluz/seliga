@@ -101,10 +101,10 @@ header {
 
 .title__secs {
     color: var(--cor-marrom-escuro);
-    font-weight: bold;
+    font-size: 21px;
+    padding: 10px 0;
     text-align: center;
-    padding: 0% 3% 3%;
-    font-size: 26px;
+    font-weight: bold;
   }
 
 #img-text__2sec {
@@ -133,9 +133,13 @@ header {
 }
 
 .title__secs-2 {
-    color: var(--cor-marrom-escuro);
-    font-weight: bold;
     font-size: 30px;
     padding:  20px 10px 10px;
     text-align: center;
+}
+
+.text__secs {
+    text-align: center;
+    padding: 0% 3% 3%;
+    font-size: 26px;
 }
