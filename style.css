@@ -132,6 +132,10 @@ header {
     padding: 0 2%;
 }
 
+.title__secs {
+    font-size: 30px;
+}
+
 .text__secs {
     text-align: center;
     padding: 3%;
