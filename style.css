@@ -95,3 +95,14 @@ header {
     width: 300px;
 }
 
+#desenvolvimento__2sec {
+    background: var(--cor-verde-claro);
+}
+
+#img-text__2sec {
+    display: flex;
+}
+
+.img__2sec {
+    width: 220px;
+}
