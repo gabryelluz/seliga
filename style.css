@@ -146,7 +146,7 @@ header {
     font-size: 26px;
 }
 
-.img-text__5sec {
+#img-text__5sec {
     background: var(--cor-verde-claro);
     display: flex;
     padding: 3% 6%;
