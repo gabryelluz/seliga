@@ -109,8 +109,14 @@ header {
 
 #img-text__2sec {
     display: flex;
+    padding: 3% 6%;
+    text-align: center;
+}
+
+.espec_img-text__2sec {
+    margin: auto;
 }
 
 .img__2sec {
-    width: 255px;
+    width: 240px;
 }
