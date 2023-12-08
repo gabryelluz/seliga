@@ -19,7 +19,6 @@
     color: var(--cor-texto);
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
@@ -74,6 +73,10 @@ header {
 #Vector {
     font-size: 13px;
     gap: 10px;
+}
+
+#desenvolvimento__1sec__responsive {
+    display: none;
 }
 
 #desenvolvimento__1sec {
@@ -172,4 +175,14 @@ header {
 
 #white-space2 {
     height: 31px;
+}
+
+@media screen and (max-width: 767px) {
+    #desenvolvimento__1sec {
+        display: none;
+    }
+    
+    #desenvolvimento__1sec__responsive {
+        display: block;
+    }
 }
