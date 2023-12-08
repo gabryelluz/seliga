@@ -92,7 +92,7 @@ header {
 }
 
 #img__1sec {
-    width: 300px;
+    width: 26.46vw;
 }
 
 #img-text__2sec {
@@ -118,7 +118,11 @@ header {
 }
 
 .img__2sec {
-    width: 240px;
+    width: 17.63vw;
+}
+
+.img__5sec {
+    width: 17.63vw;
 }
 
 .white-space {
@@ -153,21 +157,17 @@ header {
     text-align: center;
 }
 
-.img__5sec {
-    width: 240px;
-}
-
 .espec_img-text__5sec {
     margin: auto;
 }
 
 #text__footer {
     text-align: center;
-    font-size: 22px;
+    font-size: clamp(13.75px, 1.62vw, 28,88px); /*1.62vw = 22px -> 28,88px = 22px + 31,26%*/
     font-weight: bold;
     background: var(--cor-verde-escuro);
     color: var(--cor-fundo);
-    padding: .5% 0;
+    padding: .5% 4%;
 }
 
 #white-space2 {
