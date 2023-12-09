@@ -88,11 +88,29 @@
   }
 
   #input__search {
-      padding: 10px;
-      border: 1px solid white;
+      border-radius: 30px;
       border-radius: 5px;
       background-color: transparent;
       color: white;
+      background-image: url('caminho/para/search_black_24dp_1.svg');
+      background-size: 20px 20px;
+      /* Ajuste o tamanho conforme necessário */
+      background-repeat: no-repeat;
+      background-position: 10px center;
+      /* Ajuste a posição conforme necessário */
+  }
+
+  /* Adicione um estilo para remover o estilo padrão do botão de reset no Firefox */
+  input[type="reset"] {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      margin: 0;
+      padding: 0;
+      border: none;
+      outline: none;
+      background: none;
+      cursor: pointer;
   }
 
   #lupa__button {
