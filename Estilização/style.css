@@ -85,14 +85,11 @@
 
   #after__1sec {
       display: none;
-      max-width: 400px;
-      margin: 20px auto;
   }
 
   #input__search {
-      flex: 1;
       padding: 10px;
-      border: 2px solid white;
+      border: 1px solid white;
       border-radius: 5px;
       background-color: transparent;
       color: white;
@@ -202,11 +199,14 @@
   }
 
   @media screen and (max-width: 767px) {
-      #desenvolvimento__1sec {
+      #before__1sec {
           display: none;
       }
 
-      #desenvolvimento__1sec__responsive {
+      #before__1sec {
           display: block;
+          background: var(--gradiente-fundo);
+          display: flex;
+          align-items: center;
       }
   }
