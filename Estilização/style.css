@@ -203,7 +203,7 @@
           display: none;
       }
 
-      #before__1sec {
+      #after__1sec {
           display: block;
           background: var(--gradiente-fundo);
           display: flex;
