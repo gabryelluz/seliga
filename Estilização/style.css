@@ -83,29 +83,6 @@
       padding: 0 5%;
   }
 
-  .barra-de-pesquisa {
-    display: flex;
-    max-width: 400px;
-    margin: 20px auto;
-  }
-  
-  .lupa {
-    padding: 10px;
-  }
-  
-  img__search {
-    width: 20px;
-    height: 20px;
-  }
-  
-  input {
-    padding: 10px;
-    border-radius: 30px;
-    background-color: transparent;
-    color: white;
-    outline: none; /* Remove a borda ao focar no input */
-  }
-
   .text__1sec__cont {
       color: var(--cor-fundo);
       font-size: 26px;
@@ -195,15 +172,4 @@
 
   #white-space2 {
       height: 31px;
-  }
-
-  @media screen and (max-width: 767px) {
-      #before__1sec {
-          display: none;
-      }
-
-      #barra-de-pesquisa {
-          display: block;
-          background: var(--gradiente-fundo);
-      }
   }
