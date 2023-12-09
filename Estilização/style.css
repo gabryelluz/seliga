@@ -84,7 +84,7 @@
   }
 
   .barra-de-pesquisa {
-    display: none;
+    display: flex;
     max-width: 400px;
     margin: 20px auto;
   }
@@ -93,7 +93,7 @@
     padding: 10px;
   }
   
-  img {
+  img__search {
     width: 20px;
     height: 20px;
   }
