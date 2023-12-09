@@ -83,46 +83,27 @@
       padding: 0 5%;
   }
 
-  #after__1sec {
-      display: none;
+  .barra-de-pesquisa {
+    display: none;
+    max-width: 400px;
+    margin: 20px auto;
   }
-
-  #input__search {
-      border-radius: 30px;
-      border-radius: 5px;
-      background-color: transparent;
-      color: white;
-      background-image: url('caminho/para/search_black_24dp_1.svg');
-      background-size: 20px 20px;
-      /* Ajuste o tamanho conforme necessário */
-      background-repeat: no-repeat;
-      background-position: 10px center;
-      /* Ajuste a posição conforme necessário */
+  
+  .lupa {
+    padding: 10px;
   }
-
-  /* Adicione um estilo para remover o estilo padrão do botão de reset no Firefox */
-  input[type="reset"] {
-      -moz-appearance: none;
-      -webkit-appearance: none;
-      appearance: none;
-      margin: 0;
-      padding: 0;
-      border: none;
-      outline: none;
-      background: none;
-      cursor: pointer;
+  
+  img {
+    width: 20px;
+    height: 20px;
   }
-
-  #lupa__button {
-      padding: 10px;
-      background-color: transparent;
-      border: none;
-      cursor: pointer;
-  }
-
-  #lupa__img {
-      width: 20px;
-      height: 20px;
+  
+  input {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    outline: none; /* Remove a borda ao focar no input */
   }
 
   .text__1sec__cont {
@@ -221,10 +202,8 @@
           display: none;
       }
 
-      #after__1sec {
+      #barra-de-pesquisa {
           display: block;
           background: var(--gradiente-fundo);
-          display: flex;
-          align-items: center;
       }
   }
