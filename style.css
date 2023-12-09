@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Cor de fundo escura de exemplo */
+    color: white; /* Cor do texto branco */
+  }
+  
+  .barra-de-pesquisa {
+    display: flex;
+    max-width: 400px; /* Largura máxima da barra de pesquisa */
+    margin: 20px auto; /* Centraliza a barra de pesquisa na página */
+  }
+  
+  input {
+    flex: 1; /* Ocupa o restante do espaço disponível */
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button img {
+    width: 20px; /* Ajuste a largura conforme necessário */
+    height: 20px; /* Ajuste a altura conforme necessário */
+  }
+  

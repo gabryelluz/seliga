@@ -1,67 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Bar Settings</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        #searchBar {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
-            background-color: transparent;
-        }
-
-        input[type="text"] {
-            width: 300px;
-            height: 30px;
-            padding: 0 5px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            outline: none;
-        }
-
-        input[type="text"]::placeholder {
-            color: #999;
-        }
-
-        img {
-            width: 24px;
-            height: 24px;
-            margin-left: -35px;
-            cursor: pointer;
-        }
-
-        button {
-            width: 300px;
-            height: 30px;
-            background-color: #4CAF50;
-            color: white;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 10px;
-        }
-
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Barra de Pesquisa</title>
 </head>
 <body>
-    <div id="searchBar">
-        <input type="text" placeholder="Search...">
-        <img src="./imagens/search_black_24dp 1.svg" alt="Pesquisar">
-        <button>Enviar</button>
-    </div>
+
+  <div class="barra-de-pesquisa">
+    <input type="text" placeholder="Pesquisar">
+    <button type="submit">
+      <img src="caminho/para/search_black_24dp_1.svg" alt="Ícone de pesquisa">
+    </button>
+  </div>
+
 </body>
 </html>
