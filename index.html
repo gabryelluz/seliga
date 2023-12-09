@@ -1,165 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Se Liga</title>
+    <title>Search Bar Settings</title>
+    <style>
+        #after__1sec {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: transparent;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            height: 30px;
+            padding: 0 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        input[type="text"]::placeholder {
+            color: #999;
+        }
+
+        img {
+            width: 24px;
+            height: 24px;
+            margin-left: -35px;
+            cursor: pointer;
+        }
+
+        button {
+            width: 300px;
+            height: 30px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
-
 <body>
-    <header>
-        <div class="link__left">
-            <div class="link__img">
-                <a href="#" id="sua__viagem" class="linksmenu"><img src="./imagens/image 33.png" alt="" width="45px"
-                        height="auto">
-                    Sua Viagem
-                </a>
-            </div>
-            <div class="cpp">
-                <a href="#" class="linksmenu text__letter">
-                    Categorias
-                </a>
-                <a href="#" class="linksmenu text__letter">
-                    Passagens
-                </a>
-                <a href="#" class="linksmenu text__letter">
-                    Pacotes
-                </a>
-            </div>
-        </div>
-        <div class="link__right">
-            <div class="link__img">
-                <a href="#" class="linksmenu" id="bagagem">
-                    <img src="./imagens/bagagem 1.png" alt="" width="30px" height="auto">
-                    Minhas viagens
-                </a>
-            </div>
-            <div class="link__img">
-                <a href="#" class="linksmenu" id="Vector">
-                    <img src="./imagens/Vector.png" alt="" width="33px" height="auto">
-                    Meu perfil
-                </a>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="desenvolvimento__1sec">
-            <div class="text__1sec">
-                <p class="text__1sec__cont">Descubra destinos deslumbrantes, vivencie culturas fascinantes e embarque em
-                    aventuras inesquecíveis.</p>
-                <p class="text__1sec__cont">Seja inspirado, sonhe alto e crie memórias duradouras. Sua próxima aventura
-                    começa aqui. Vamos viajar juntos!</p>
-            </div>
-            <img src="./imagens/Journey-bro 1.png" alt="primeira imagem" id="img__1sec">
-        </section>
-        <section class="desenvolvimento__1sec" id="desenvolvimento__1sec__responsive">
-            <div class="search-bar">
-                <input type="text" placeholder="Search..." class="search-input" />
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                    class="feather feather-search">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-            </div>
-        </section>
-
-        <section id="desenvolvimento__2sec">
-            <p class="title__secs">Principais Ofertas</p>
-            <div id="img-text__2sec">
-                <div class="espec_img-text__2sec">
-                    <img src="./imagens/Rio de Janeiro-bro 1.png" alt="Oferta" class="img__2sec">
-                    <p class="title__secs">
-                        Rio de Janeiro
-                    </p>
-                </div>
-                <div class="espec_img-text__2sec">
-                    <img src="./imagens/Paris-bro 1.png" alt="Oferta" class="img__2sec">
-                    <p class="title__secs">
-                        Paris
-                    </p>
-                </div>
-                <div class="espec_img-text__2sec">
-                    <img src="./imagens/São Paulo-bro 1.png" alt="Oferta" class="img__2sec">
-                    <p class="title__secs">
-                        São Paulo
-                    </p>
-                </div>
-                <div class="espec_img-text__2sec">
-                    <img src="./imagens/China.png" alt="Oferta" class="img__2sec">
-                    <p class="title__secs">
-                        China
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="desenvolvimento__secs">
-            <div class="white-space"></div>
-            <div class="img-text__secs">
-                <img src="./imagens/Rio de Janeiro-bro 1.png" alt="Rio de Janeiro" class="img__secs">
-                <div class="desenvolvimento__secs__text">
-                    <p class="title__secs-2">
-                        Rio de Janeiro
-                    </p>
-                    <p class="text__secs">
-                        O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de
-                        Copacabana e
-                        Ipanema, pela estátua de 38 metros de altura do Cristo Redentor, no topo do Corcovado, e
-                        pelo Pão de
-                        Açúcar, um pico de granito com teleféricos até seu cume. A cidade também é conhecida pelas
-                        grandes
-                        favelas. O empolgante Carnaval, com carros alegóricos, fantasias extravagantes e sambistas,
-                        é
-                        considerado o maior do mundo.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="desenvolvimento__secs">
-            <div class="white-space"></div>
-            <div class="img-text__secs">
-                <div class="desenvolvimento__secs__text">
-                    <p class="title__secs-2">
-                        Paris
-                    </p>
-                    <p class="text__secs">
-                        Paris, a capital da França, é uma importante cidade europeia e um centro mundial de arte, moda,
-                        gastronomia e cultura. Sua paisagem urbana do século XIX é cortada por avenidas largas e pelo
-                        rio
-                        Sena. A cidade é conhecida por monumentos como a Torre Eiffel e a Catedral de Notre-Dame, uma
-                        construção gótica do século XII, sendo famosa também pela cultura dos cafés e por lojas de
-                        estilistas famosos na Rue du Faubourg Saint-Honoré.
-                    </p>
-                </div>
-                <img src="./imagens/Paris-bro 1.png" alt="Rio de Janeiro" class="img__secs">
-            </div>
-        </section>
-        <section id="desenvolvimento__5sec">
-            <p class="title__secs">Desenvolvedores</p>
-            <div id="img-text__5sec">
-                <div class="espec_img-text__5sec">
-                    <img src="./imagens/pessoa 1.png" alt="imagens" class="img__5sec">
-                    <p class="title__secs">Pessoa 1</p>
-                </div>
-                <div class="espec_img-text__5sec">
-                    <img src="./imagens/pessoa 2.png" alt="imagens" class="img__5sec">
-                    <p class="title__secs">Pessoa 2</p>
-                </div>
-                <div class="espec_img-text__5sec">
-                    <img src="./imagens/Creative thinking-pana 1.png" alt="imagens" class="img__5sec">
-                    <p class="title__secs">Pessoa 3</p>
-                </div>
-        </section>
-    </main>
-    <footer>
-        <div id="white-space2"></div>
-        <p id="text__footer">
-            Colégio Estadual do Paraná - Projeto do SE LIGA - 2°O
-        </p>
-    </footer>
-    <script src="main.js"></script>
+    <div id="after__1sec">
+        <input type="text" placeholder="Search...">
+        <img src="./imagens/search_black_24dp 1.svg" alt="Pesquisar">
+        <button>Enviar</button>
+    </div>
 </body>
-
 </html>
