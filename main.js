@@ -1,10 +1,8 @@
 function tocar(idElementoAudio) {
     const audio = document.querySelector(idElementoAudio);
-    
-    if (!audio.paused) {
-        audio.pause();
-        audio.currentTime = 0;
-    }
+
+    audio.pause();
+    audio.currentTime = 0;
 
     audio.play();
 }
