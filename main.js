@@ -1,10 +1,17 @@
 function tocar(idElementoAudio) {
     const audio = document.querySelector(idElementoAudio);
 
-    audio.pause();
-    audio.currentTime = 0;
+    // Verificar se o áudio está carregado
+    if (audio.readyState >= 2) {
+        // Parar o áudio atual, se estiver tocando
+        audio.pause();
+        audio.currentTime = 0;
 
-    audio.play();
+        // Reproduzir o novo áudio
+        audio.play();
+    } else {
+        console.error(`Erro ao carregar áudio: ${idElementoAudio}`);
+    }
 }
 
 const ListaTeclas = document.querySelectorAll('.tecla');
