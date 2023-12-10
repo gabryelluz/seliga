@@ -2,7 +2,10 @@ body {
     text-align: center;
     height: 100vh;
     width: 100vw;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
+
 main {
     display: flex;
     justify-content: center;
@@ -13,10 +16,23 @@ main {
 
 #projeto {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-    width: 400px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 300px;
 }
+
+.quadrados {
+    border: none;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 img {
-    width: 100px;
+    width: 100%;
+}
+
+.quadrados.tecla.ativa {
+    background-color: #2ecc71;
 }
