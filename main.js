@@ -1,5 +1,12 @@
 function tocar(idElementoAudio) {
-    document.querySelector(idElementoAudio).play();
+    const audio = document.querySelector(idElementoAudio);
+    
+    if (!audio.paused) {
+        audio.pause();
+        audio.currentTime = 0;
+    }
+
+    audio.play();
 }
 
 const ListaTeclas = document.querySelectorAll('.tecla');
@@ -15,6 +22,7 @@ ListaTeclas.forEach(botao => {
     botao.addEventListener('keydown', function (evento) {
         if (evento.code === 'Space' || evento.code === 'Enter') {
             botao.classList.add('ativa');
+            tocar(idAudio);
         }
     });
 
