@@ -12,10 +12,9 @@ main {
 }
 
 #projeto {
-    display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+    place-items: center;
     width: 400px;
 }
 img {
