@@ -18,21 +18,24 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    border: 1px solid black;
     width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #E3E3E3;
+    border: 1px solid #666;
+    box-shadow: 10px 10px 1px 5px rgba(0, 0, 0, .50);
 }
 
 .quadrados {
-    border: none;
-    background-color: #3498db;
+    border: 1px solid black;
+    background-color: white;
     padding: 10px;
     border-radius: 5px;
-    cursor: pointer;
+    border-radius: 28px;
+    cursor: pointer   
 }
 
 img {
-    width: 100%;
-}
-
-.quadrados.tecla.ativa {
-    background-color: #2ecc71;
+    width: 85%;
 }
