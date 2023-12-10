@@ -7,6 +7,6 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
-div {
+img {
     width: 100px;
 }
